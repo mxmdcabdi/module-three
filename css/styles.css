@@ -1,0 +1,131 @@
+nav{
+  color: #000;
+}
+.navbar-brand{
+    font-size: 28px;
+}
+h2{
+text-align: center;
+color: rgb(247, 15, 15) ;
+margin-top: 28px;
+margin-bottom: 14px;
+
+}
+
+.row{      
+      justify-content: center;
+        text-align: center;
+
+}
+.col-md-4{
+    border: 14px rgb(10, 10, 10);
+        padding: 10px 10px 10px 10px;
+        border: 2px aliceblue solid;
+        box-sizing: border-box;
+        background-color: rgb(205, 216, 226);
+        width: 350px;
+        margin-left: 12px; 
+
+}
+
+#chicken{
+    text-align: center;
+    color: #000 bold;
+    flex-basis: 25%;
+    margin-bottom: 10px;
+    font-size: 30px;
+    border-radius: 0;
+    margin-top: 0%;
+    margin-bottom: 0;
+    padding: 0px;
+    box-sizing: border-box;
+    transition: 0.5s;
+}
+#beef{
+    text-align: center;
+    color: #000 bold;
+    flex-basis: 25%;
+    margin-bottom: 10px;
+    font-size: 30px;
+    border-radius: 0;
+    margin-top: 0%;
+    margin-bottom: 0;
+    padding: 0px;
+    box-sizing: border-box;
+    transition: 0.5s;
+}
+
+#sushi{
+    text-align: center;
+    color: #000 bold;
+    flex-basis: 25%;
+    margin-bottom: 10px;
+    font-size: 30px;
+    border-radius: 0;
+    margin-top: 0%;
+    margin-bottom: 0;
+    padding: 0px;
+    box-sizing: border-box;
+    transition: 0.5s;
+}
+
+.top{
+    margin-top: 40px;
+
+}
+.under-line {
+    border-bottom: 5px solid black;
+    width: 100%;
+    margin-bottom: 5px;
+   
+}
+.under-line a{
+    text-decoration: none;
+    list-style: none;
+    color: #000;
+    text-align: center;
+    font-size: larger;
+    margin-bottom: 5px;
+}
+
+/* Media Query for Small Screens */
+    @media only screen and (max-width: 576px) {
+      /* Add CSS styles for small screens here */
+      .col-md-4{
+        
+        margin-bottom: 15px;
+        margin: 4px 0px 4px 0px;
+        width: 80%;
+
+      }
+    }
+
+    /* Media Query for Medium Screens */
+    @media only screen and (min-width: 576px) and (max-width: 768px) {
+      /* Add CSS styles for medium screens here */
+      .col-md-4{
+        width: 300px;
+        margin-bottom: 15px;
+      }
+      .col-md-4:nth-child(3){
+        width: 80%;
+      }
+      .top{
+        display: none;
+      }
+      
+     .col-md-4 a{
+        display: none;
+      }
+    }
+
+    /* Media Query for Large Screens */
+    @media only screen and (min-width: 768px) {
+      /* Add CSS styles for large screens here */
+      .top{
+        display: none;
+      }
+      .col-md-4 a{
+        display: none;
+      }
+    }
